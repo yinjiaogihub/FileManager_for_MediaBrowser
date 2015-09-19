@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Test2969MediaBrowser</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    
+    
+    <string name="STRING_VIDEO">Video</string>
+    <string name="STRING_MUSIC">Music</string>
+    <string name="STRING_PICTURE">Picture</string>
+    <string name="STRING_BLUE_RAY">Blue Ray</string>
+    <string name="STRING_ALL">All</string>
+
+</resources>

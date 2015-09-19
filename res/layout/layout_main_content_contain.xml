@@ -1,0 +1,38 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity" 
+    android:gravity="center_vertical"
+    android:id="@+id/layout_main_content_contain"
+     android:focusable="true"
+    android:focusableInTouchMode="true">
+
+	<ImageView 
+	    android:id="@+id/iv_left"
+	    android:layout_width="wrap_content"
+	    android:layout_height="match_parent"
+	    android:src="@drawable/vch_left"
+	    android:layout_alignParentLeft="true"
+	    android:layout_centerVertical="true"
+	    android:layout_margin="10dp"/>
+    
+     <android.support.v4.view.ViewPager
+        android:id="@+id/viewpager_container"
+        android:layout_toLeftOf="@+id/iv_right"
+        android:layout_toRightOf="@+id/iv_left"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        />
+    
+		<ImageView 
+		    android:id="@+id/iv_right"
+	    android:layout_width="wrap_content"
+	    android:layout_height="match_parent"
+	    android:src="@drawable/vch_right"
+	    android:layout_alignParentRight="true"
+	    android:layout_centerVertical="true"
+	     android:layout_margin="10dp"/>
+</RelativeLayout>

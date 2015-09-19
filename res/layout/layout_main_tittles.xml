@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="50dp"
+    android:gravity="center_vertical"
+    android:orientation="horizontal" 
+    android:id="@+id/layout_main_tittle_container"
+    android:focusable="true"
+    android:focusableInTouchMode="true">
+
+    <LinearLayout
+        android:id="@+id/layout_tittles_five"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+         android:focusable="true"
+    android:focusableInTouchMode="true" >
+
+        <TextView
+            android:id="@+id/tv_tittle_video"
+            style="@style/tv_tittles_theme_normal_gray"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_gravity="center_vertical"
+            android:layout_margin="5dp"
+            android:text="@string/STRING_VIDEO" />
+
+        <TextView
+            android:id="@+id/tv_tittle_music"
+             style="@style/tv_tittles_theme_normal_gray"
+              android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_gravity="center_vertical"
+            android:layout_margin="5dp"
+            android:text="@string/STRING_MUSIC"
+             />
+
+        <TextView
+            android:id="@+id/tv_tittle_picture"
+            style="@style/tv_tittles_theme_normal_gray"
+             android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_gravity="center_vertical"
+            android:layout_margin="5dp"
+            android:text="@string/STRING_PICTURE"
+            />
+
+        <TextView
+            android:id="@+id/tv_tittle_bule_ray"
+            style="@style/tv_tittles_theme_normal_gray"
+             android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_gravity="center_vertical"
+            android:layout_margin="5dp"
+            android:text="@string/STRING_BLUE_RAY"
+            />
+
+        <TextView
+            android:id="@+id/tv_tittle_all"
+            style="@style/tv_tittles_theme_normal_gray"
+             android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_gravity="center_vertical"
+            android:layout_margin="5dp"
+            android:text="@string/STRING_ALL"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layout_tittles_single"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" 
+        android:visibility="gone"
+         android:focusable="true"
+    android:focusableInTouchMode="true">
+
+        <TextView
+            android:id="@+id/tv_tittle_single"
+            style="@style/tv_tittles_theme_normal_white"
+             android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_gravity="center_vertical"
+            android:layout_margin="5dp"
+            android:text="@string/STRING_ALL"
+            />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_gravity="center_vertical"
+            android:layout_margin="5dp" 
+            android:src="@drawable/vch_right"/>
+    </LinearLayout>
+
+</LinearLayout>

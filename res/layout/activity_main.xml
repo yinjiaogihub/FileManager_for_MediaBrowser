@@ -1,0 +1,30 @@
+<LinearLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity" 
+    android:orientation="vertical"
+    android:background="@drawable/bg">
+
+	<!-- layout tittles vedio music pic blue-ray all -->
+    <include
+        android:layout_width="wrap_content"
+        android:layout_height="45dp"
+        layout="@layout/layout_main_tittles" />
+    
+    <!-- layout container viewpager -->
+    <include
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        layout="@layout/layout_main_content_contain" />
+    
+      <com.example.test2969mediabrowser.UnderlinePageIndicator
+        android:id="@+id/pageview_indicator"
+        android:layout_height="30dp"
+        android:layout_width="fill_parent"
+        />
+    
+    
+
+</LinearLayout>
